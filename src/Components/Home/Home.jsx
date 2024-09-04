@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "/src/assets/img1.jpg";
 import { ReactTyped } from "react-typed";
-import {Link} from "react-scroll"
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
@@ -24,18 +24,18 @@ function Home() {
               development with react and also java developement with spring and
               springboot
             </p>
-            <Link className=" mr-3 " to={"about"}>
+            {/* <Link className=" mr-3 " to={"about"}>
             <button className=" mt-3 p-2 border-[1px] border-solid border-[#00abf0] hover:bg-[#00abf0] duration-300">
             Let's Connect
             </button>
-          </Link>
-          <Link
+          </Link> */}
+          <Link className="rounded-sm"
             to={
               "https://drive.google.com/file/d/154CZubpMmh3z3xnJChmF4PHdyQRyZsuL/view?usp=sharing"
             }
           >
-            <button className="p-2 border-[1px] border-solid border-[#00abf0] hover:bg-[#00abf0] duration-300">
-              Resume
+            <button className="p-2  my-2 border-[1px] border-solid border-[#00abf0] hover:bg-[#00abf0] duration-300">
+             View Resume
             </button>
           </Link>
           </div>

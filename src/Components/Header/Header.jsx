@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { HiMenu } from "react-icons/hi";
 import { RxCross1 } from "react-icons/rx";
-import { NavLink }  from "react-router-dom"
-import { Element, Link } from "react-scroll";
-import Home from "../Home/Home";
+import {  Link } from "react-scroll";
+
 
 function Header() {
   const [menuBar, setMenuBar] = useState(false);
@@ -24,7 +23,7 @@ function Header() {
                     to={"/"}
                     smooth={true}
                     duration={500}
-                    className="cursor-pointer"
+                    className="cursor-pointer hover:underline hover:underline-offset-8"
                     activeClass="active"
                   >
                    Home
@@ -35,7 +34,7 @@ function Header() {
                     to={"education"}
                     smooth={true}
                     duration={500}
-                    className="cursor-pointer"
+                    className="cursor-pointer hover:underline hover:underline-offset-8"
                     activeClass="active"
                   >
                    Education
@@ -46,7 +45,7 @@ function Header() {
                     to={"skills"}
                     smooth={true}
                     duration={500}
-                    className="cursor-pointer"
+                    className="cursor-pointer hover:underline hover:underline-offset-8"
                     activeClass="active"
                   >
                    Skills
@@ -57,7 +56,7 @@ function Header() {
                     to={"project"}
                     smooth={true}
                     duration={500}
-                    className="cursor-pointer"
+                    className="cursor-pointer hover:underline hover:underline-offset-8"
                     activeClass="active"
                   >
                    Project
@@ -68,7 +67,7 @@ function Header() {
                     to={"about"}
                     smooth={true}
                     duration={500}
-                    className="cursor-pointer"
+                    className="cursor-pointer hover:underline hover:underline-offset-8"
                     activeClass="active"
                   >
                    Contact
@@ -90,54 +89,42 @@ function Header() {
         <div>
           <ul className={`${menuBar ? "flex" : "hidden"} flex-col gap-10`}>
           <li className="mt-5">
-                  <NavLink
-                    to={""}
-                    className={({ isActive }) =>
-                      isActive ? "text-[#00abf0] font-semibold" : "text-white"
-                    }
+                  <Link
+                    to={"/"}
                   >
                    Home
-                  </NavLink>
+                  </Link>
                 </li>  
                 <li>
-                  <NavLink
+                  <Link
                     to={"education"}
-                    className={({ isActive }) =>
-                      isActive ? "text-[#00abf0] font-semibold" : "text-white"
-                    }
+                  
                   >
                    Education
-                  </NavLink>
+                  </Link>
                 </li>  
                 <li>
-                  <NavLink
-                    to={"Skills"}
-                    className={({ isActive }) =>
-                      isActive ? "text-[#00abf0] font-semibold" : "text-white"
-                    }
+                  <Link
+                    to={"skills"}
                   >
                    Skills
-                  </NavLink>
+                  </Link>
                 </li>  
                 <li>
-                  <NavLink
+                  <Link
                     to={"project"}
-                    className={({ isActive }) =>
-                      isActive ? "text-[#00abf0] font-semibold" : "text-white"
-                    }
+                  
                   >
                    Project
-                  </NavLink>
+                  </Link>
                 </li>  
                 <li>
-                  <NavLink
-                    to={"contact"}
-                    className={({ isActive }) =>
-                      isActive ? "text-[#00abf0] font-semibold" : "text-white"
-                    }
+                  <Link
+                    to={"about"}
+                    
                   >
                    Contact
-                  </NavLink>
+                  </Link>
                 </li>  
             </ul>
         </div>

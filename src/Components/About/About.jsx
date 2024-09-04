@@ -9,8 +9,8 @@ function About() {
   return (
     <div id="about"  className="bg-[#02060c] text-white  p-3 md:px-10 lg:px-16 xl:px-20  2xl:px-32  ">
         <div>
-            <h2 className="text-2xl">My Personal Information & Social Media Links</h2>
-            <h4 className="text-xl text-center pt-20 pb-10">Below are the details to reach out to me</h4>
+            <h2 className="text-2xl pb-10">My Personal Information & Social Media Links</h2>
+            <h4 className="text-xl">Below are the details to reach out to me</h4>
         </div>
         <div className='my-20 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5 gap-10'>
             <div className='text-center'>
