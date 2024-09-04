@@ -6,8 +6,13 @@ import {  Link } from "react-scroll";
 
 function Header() {
   const [menuBar, setMenuBar] = useState(false);
+  const [Bar, setBar] = useState(false);
+
   const handle = () => {
     setMenuBar(!menuBar);
+  };
+  const handle2 = () => {
+    setBar(!Bar);
   };
   return (
     <>
