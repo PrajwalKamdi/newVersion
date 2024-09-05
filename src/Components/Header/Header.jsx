@@ -11,7 +11,7 @@ function Header() {
   };
   return (
     <>
-      <header className="bg-[#040b16] text-white fixed top-0 left-0 right-0 p-3 md:px-10 lg:px-16 xl:px-20  2xl:px-32 py-5">
+      <header className=" bg-[#08152b]  text-white fixed top-0 left-0 right-0 p-3 md:px-10 lg:px-16 xl:px-20  2xl:px-32 py-5">
         <nav className="flex justify-between items-center">
           <div>
             <span className="text-[#00abf0] font-semibold">Prajwal Kamdi</span>
