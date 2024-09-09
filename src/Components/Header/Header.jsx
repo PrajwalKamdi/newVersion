@@ -91,6 +91,7 @@ function Header() {
           <li className="mt-5">
                   <Link
                     to={"/"}
+                    onClick={handle}
                   >
                    Home
                   </Link>
@@ -98,6 +99,7 @@ function Header() {
                 <li>
                   <Link
                     to={"education"}
+                    onClick={handle}
                   
                   >
                    Education
@@ -106,6 +108,7 @@ function Header() {
                 <li>
                   <Link
                     to={"skills"}
+                    onClick={handle}
                   >
                    Skills
                   </Link>
@@ -113,6 +116,7 @@ function Header() {
                 <li>
                   <Link
                     to={"project"}
+                    onClick={handle}
                   
                   >
                    Project
@@ -121,6 +125,7 @@ function Header() {
                 <li>
                   <Link
                     to={"about"}
+                    onClick={handle}
                     
                   >
                    Contact

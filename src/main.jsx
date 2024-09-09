@@ -5,7 +5,10 @@ import './index.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='' element={<App/>}/>
+    <>
+      <Route path='' element={<App/>}/>
+    </>
+   
   )
 )
 createRoot(document.getElementById('root')).render(
