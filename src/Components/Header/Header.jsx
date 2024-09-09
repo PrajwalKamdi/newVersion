@@ -92,6 +92,7 @@ function Header() {
                   <Link
                     to={"/"}
                     onClick={handle}
+                    className=""
                   >
                    Home
                   </Link>
