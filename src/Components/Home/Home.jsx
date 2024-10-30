@@ -13,7 +13,7 @@ function Home() {
           <div className="lg:w-1/2 xl:w-1/2 2xl:w-1/2">
             <h1 className="text-xl font-semibold">Hi I'm Prajwal Kamdi</h1>
             <ReactTyped
-              strings={["FrontEnd Developer", "Java Developer"]}
+              strings={["Front-End Developer", "Java Full Stack Developer"]}
               typeSpeed={40}
               backSpeed={50}
               loop={true}
@@ -21,7 +21,7 @@ function Home() {
             />
             <p className="capitalize">
               passionate & adaptable fresher commited to mastering frontEnd
-              development with react and also java developement with spring and
+              development with react and java developement with spring and
               springboot
             </p>
             {/* <Link className=" mr-3 " to={"about"}>
@@ -31,7 +31,7 @@ function Home() {
           </Link> */}
           <Link className="rounded-sm"
             to={
-              "https://drive.google.com/file/d/154CZubpMmh3z3xnJChmF4PHdyQRyZsuL/view?usp=sharing"
+              "https://drive.google.com/file/d/1CAmhDfqvVw2RchX-6nu2EFn9P-_J_pYl/view?usp=sharing"
             }
           >
             <button className="p-2  my-2 border-[1px] border-solid border-[#00abf0] hover:bg-[#00abf0] duration-300">

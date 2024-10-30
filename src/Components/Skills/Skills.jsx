@@ -15,7 +15,7 @@ function Skills() {
         <section>
           <h1 className="text-xl py-10">My Coding & Developement Skills</h1>
           <div className="grid sm:p-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 gap-10 ">
-            <div className=" border p-5  md:p-5 2xl:p-10 xl:p-5 lg:p-5 rounded-md shadow-md  shadow-[#00abf0] hover:scale-110 duration-500">
+            <div className=" border p-5  md:p-5 2xl:p-10 xl:p-5 lg:p-5 rounded-md shadow-md  shadow-[#00abf0]">
               <img src={combine} alt="" className="" />
               <img
                 src={react}
@@ -30,7 +30,7 @@ function Skills() {
                 </h3>
               </div>
             </div>
-            <div className="border p-5 md:p-5 2xl:p-10 xl:p-5 lg:p-5 rounded-m shadow-md  shadow-[#00abf0] hover:scale-110 duration-500">
+            <div className="border p-5 md:p-5 2xl:p-10 xl:p-5 lg:p-5 rounded-m shadow-md  shadow-[#00abf0] ">
               <img src={java} alt="" className="rounded-md" />
               <div>
                 <h3 className="font-semibold capitalize">
@@ -39,7 +39,7 @@ function Skills() {
                 </h3>
               </div>
             </div>
-            <div className="border flex flex-col justify-between  p-5 md:p-5 2xl:p-10 xl:p-5 lg:p-5 rounded-md shadow-md  shadow-[#00abf0] hover:scale-110 duration-500">
+            <div className="border flex flex-col justify-between  p-5 md:p-5 2xl:p-10 xl:p-5 lg:p-5 rounded-md shadow-md  shadow-[#00abf0] ">
               <div>
                 <img src={spring} alt="" className="rounded-md" />
               </div>
@@ -51,7 +51,7 @@ function Skills() {
                 </h3>
               </div>
             </div>
-            <div className="border flex flex-col justify-between  p-5 md:p-5 2xl:p-10 xl:p-5 lg:p-5 rounded-md shadow-md  shadow-[#00abf0] hover:scale-110 duration-500">
+            <div className="border flex flex-col justify-between  p-5 md:p-5 2xl:p-10 xl:p-5 lg:p-5 rounded-md shadow-md  shadow-[#00abf0] ">
               <div className="my-10">
                 <img src={tailwind} alt="" className="rounded-md " />
               </div>
