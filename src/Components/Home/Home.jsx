@@ -1,43 +1,64 @@
 import React from "react";
-import img1 from "/src/assets/img1.jpg";
-import { ReactTyped } from "react-typed";
+import { FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { ReactTyped } from "react-typed";
+import img1 from "/src/assets/img1.jpg";
 function Home() {
   return (
     <>
-      <main id="/"  className="  mt-[60px] bg-[#02060c] text-white ">
-        <section className="p-3  xl:flex lg:flex 2xl:flex items-center justify-between md:p-10 lg:p-16 xl:p-20  2xl:p-32">
-          <div className="pb-10">
-            <img src={img1} alt="" className="mt-5 rounded-full w-[400px] shadow-lg shadow-[#00abf0]" />
-          </div>
-          <div className="lg:w-1/2 xl:w-1/2 2xl:w-1/2">
-            <h1 className="text-xl font-semibold">Hi I'm Prajwal Kamdi</h1>
+      <main id="/" className="mt-16 px-5 md:px-20">
+        <section className="md:flex  md:items-center md:justify-center  md:min-h-screen">
+          <div className="md:w-1/2">
+            <h1 className="text-[29px] md:text-5xl font-semibold py-3">
+              Hi I'm <span className="text-red-600">Prajwal Kamdi</span>
+            </h1>
             <ReactTyped
-              strings={["Front-End Developer", "Java Full Stack Developer"]}
+              strings={[
+                "Front-End Developer",
+                "ReactJs Developer",
+                "Java Full Stack Developer",
+              ]}
               typeSpeed={40}
               backSpeed={50}
               loop={true}
-              className="text-[#00abf0] font-semibold text-xl"
+              className="text-[#00abf0] font-semibold text-2xl md:text-3xl"
             />
-            <p className="capitalize">
-              passionate & adaptable fresher commited to mastering frontEnd
-              development with react and java developement with spring and
-              springboot
+            <p className=" text-lg py-2">
+              Highly passionate & detail-oriented developer with expertise in
+              Java and Javascript, offering a unique blend of Backend and
+              FrontEnd skills to deliver robust, scalable, and user-friendly
+              application.
             </p>
-            {/* <Link className=" mr-3 " to={"about"}>
-            <button className=" mt-3 p-2 border-[1px] border-solid border-[#00abf0] hover:bg-[#00abf0] duration-300">
-            Let's Connect
-            </button>
-          </Link> */}
-          <Link className="rounded-sm"
-            to={
-              "https://drive.google.com/file/d/1CAmhDfqvVw2RchX-6nu2EFn9P-_J_pYl/view?usp=sharing"
-            }
-          >
-            <button className="p-2  my-2 border-[1px] border-solid border-[#00abf0] hover:bg-[#00abf0] duration-300">
-             View Resume
-            </button>
-          </Link>
+            <div className="flex items-center justify-start space-x-5">
+              <Link
+                className="rounded-md"
+                to={
+                  "https://drive.google.com/file/d/1CAmhDfqvVw2RchX-6nu2EFn9P-_J_pYl/view?usp=sharing"
+                }
+              >
+                <button
+                  className="py-2 px-4 rounded-md font-semibold my-2 border-[1px]
+               hover:text-black border-solid border-[#00abf0] hover:bg-[#00abf0] duration-500"
+                >
+                  View Resume
+                </button>
+              </Link>
+              <Link
+                className="py-2 px-5 rounded-md font-semibold my-2 border-[1px] w-fit
+               hover:text-black border-solid border-[#00abf0] hover:bg-[#00abf0] duration-500 flex items-center space-x-1"
+                to={"https://www.linkedin.com/in/prajwal-kamdi-b016b3286/"}
+              >
+                LinkedIn
+                <FaLinkedin size={25} color="" />
+              </Link>
+            </div>
+          </div>
+          <div className="rounded-lg  md:p-5 md:w-1/2 md:mx-auto">
+            <img
+              src={img1}
+              alt="Img"
+              className="rounded-3xl bg-slate-700 h-[300px] md:h-[400px] "
+            />
           </div>
         </section>
       </main>
@@ -46,3 +67,4 @@ function Home() {
 }
 
 export default Home;
+

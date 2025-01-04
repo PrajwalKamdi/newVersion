@@ -10,18 +10,17 @@ function Header() {
   };
   return (
     <>
-      <header className=" bg-[#08152b]  text-white fixed top-0 left-0 right-0 p-3 md:px-10 lg:px-16 xl:px-20  2xl:px-32 py-5">
-        <nav className="flex justify-between items-center">
-         
-            <Link
-              to={"/"}
-              smooth={true}
-              duration={500}
-              className="text-[#00abf0] font-semibold cursor-default md:text-[20px]"
-            >
-              Prajwal Kamdi
-            </Link>
-         
+      <header className=" bg-[#0e0d0d]  w-full  px-5 py-5 md:px-20 fixed top-0 left-0">
+        <nav className="flex justify-between items-center ">
+          <Link
+            to={"/"}
+            smooth={true}
+            duration={500}
+            className="text-[#00abf0] text-lg hover:cursor-pointer font-semibold cursor-default md:text-[20px]"
+          >
+            Prajwal Kamdi
+          </Link>
+
           <div>
             <ul className="hidden md:flex  md:gap-10 lg:gap-16 xl:gap-20  2xl:gap-32 justify-between">
               <li>
@@ -29,7 +28,7 @@ function Header() {
                   to={"/"}
                   smooth={true}
                   duration={500}
-                  className="cursor-pointer hover:underline hover:underline-offset-8"
+                  className="cursor-pointer hover:text-[#00abf0]  font-semibold duration-500 hover:underline hover:underline-offset-8"
                   activeClass="active"
                 >
                   Home
@@ -40,7 +39,7 @@ function Header() {
                   to={"education"}
                   smooth={true}
                   duration={500}
-                  className="cursor-pointer hover:underline hover:underline-offset-8"
+                  className="cursor-pointer duration-500 hover:text-[#00abf0] font-semibold  hover:underline hover:underline-offset-8"
                   activeClass="active"
                 >
                   Education
@@ -51,7 +50,7 @@ function Header() {
                   to={"skills"}
                   smooth={true}
                   duration={500}
-                  className="cursor-pointer hover:underline hover:underline-offset-8"
+                  className="cursor-pointer duration-500 hover:text-[#00abf0]  font-semibold  hover:underline hover:underline-offset-8"
                   activeClass="active"
                 >
                   Skills
@@ -62,7 +61,7 @@ function Header() {
                   to={"project"}
                   smooth={true}
                   duration={500}
-                  className="cursor-pointer hover:underline hover:underline-offset-8"
+                  className="cursor-pointer duration-500 hover:text-[#00abf0]  font-semibold  hover:underline hover:underline-offset-8"
                   activeClass="active"
                 >
                   Project
@@ -73,7 +72,7 @@ function Header() {
                   to={"about"}
                   smooth={true}
                   duration={500}
-                  className="cursor-pointer hover:underline hover:underline-offset-8"
+                  className="cursor-pointer duration-500 hover:text-[#00abf0]  font-semibold  hover:underline hover:underline-offset-8"
                   activeClass="active"
                 >
                   Contact
@@ -84,15 +83,19 @@ function Header() {
 
           <HiMenu
             onClick={handle}
+            size={25}
+            color="#00abf0"
             className={`md:hidden ${menuBar ? "hidden" : "block"}`}
           />
           <RxCross1
             onClick={handle}
+            size={25}
+            color="#00abf0"
             className={`md:hidden ${menuBar ? "block" : "hidden"}`}
           />
         </nav>
 
-        <div>
+        <div className={`${menuBar ? "flex" : "hidden"} h-screen`}>
           <ul className={`${menuBar ? "flex" : "hidden"} flex-col gap-10`}>
             <li className="mt-5">
               <Link to={"/"} onClick={handle} className="">

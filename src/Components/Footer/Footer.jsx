@@ -13,7 +13,7 @@ import { FaInstagram } from "react-icons/fa6";
 export default function Footer() {
   return (
     <>
-      <footer className=" px-3 text-sm text-gray-300 bg-[#040b16]  md:px-28 py-10 ">
+      <footer className=" px-3 text-sm text-gray-300 bg-[#0e0d0d]  md:px-28 py-10 ">
       <div className="flex py-8  space-x-5 md:space-x-10 justify-center  md:p-10">
           <Link to={"https://www.linkedin.com/in/prajwal-kamdi-b016b3286/"}>
             <FaLinkedin size={20} />
