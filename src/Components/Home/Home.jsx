@@ -17,6 +17,7 @@ function Home() {
                 "Front-End Developer",
                 "ReactJs Developer",
                 "Java Full Stack Developer",
+                "Mern Stack Developer",
               ]}
               typeSpeed={40}
               backSpeed={50}
@@ -33,7 +34,7 @@ function Home() {
               <Link
                 className="rounded-md"
                 to={
-                  "https://drive.google.com/file/d/1CAmhDfqvVw2RchX-6nu2EFn9P-_J_pYl/view?usp=sharing"
+                  "https://drive.google.com/file/d/1dgRXful-MzltbbUQJ4QxAxvEfcdZhRfU/view?usp=drive_link"
                 }
               >
                 <button
@@ -49,7 +50,7 @@ function Home() {
                 to={"https://www.linkedin.com/in/prajwal-kamdi-b016b3286/"}
               >
                 LinkedIn
-                <FaLinkedin size={25} color="" />
+                <FaLinkedin size={25} color="#0077B5" />
               </Link>
             </div>
           </div>

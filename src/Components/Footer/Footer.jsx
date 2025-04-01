@@ -33,9 +33,8 @@ export default function Footer() {
         </div>
         <hr />
         <div className="flex gap-2 items-center justify-center pt-10">
-          <PiCopyrightLight size={20} />
-          <p>2024 Prajwal Kamdi All Rights Reserved</p>
-          <p></p>
+          <PiCopyrightLight size={25} />
+          <p>2025 Prajwal Kamdi All Rights Reserved</p>
         </div>
         <div className="flex items-center justify-center gap-1">
             <p>Made with </p>

@@ -30,7 +30,7 @@ function Education() {
             <div className="md:px-10 px-5 w-full hover:shadow-2xl hover:shadow-gray-700 duration-500 shadow-sm  py-14 rounded-xl text-xl  bg-[#121214]  flex gap-5 md:gap-10 justify-between items-center">
               <div className="space-y-2">
                 <p>Secondary School Education</p>
-                <p className="text-sm text-gray-400">Bhalerao High School, Kelod 2017-2018</p>
+                <p className="text-sm text-gray-400">Bhikulal High School, Kelod 2017-2018</p>
               </div>
               <div className="md:px-4 px-2 py-2 bg-red-700 text-black rounded-xl font-semibold shadow-2xl shadow-gray-400">
                 90%
