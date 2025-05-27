@@ -6,9 +6,9 @@ import img1 from "/src/assets/img1.jpg";
 function Home() {
   return (
     <>
-      <main id="/" className="mt-16 px-5 md:px-20">
+      <main id="/" className="px-5 md:px-20 pt-16">
         <section className="md:flex  md:items-center md:justify-center  md:min-h-screen">
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 mb-4 md:mb-0">
             <h1 className="text-[29px] md:text-5xl font-semibold py-3">
               Hi I'm <span className="text-red-600">Prajwal Kamdi</span>
             </h1>
@@ -54,7 +54,7 @@ function Home() {
               </Link>
             </div>
           </div>
-          <div className="rounded-lg  md:p-5 md:w-1/2 md:mx-auto">
+          <div >
             <img
               src={img1}
               alt="Img"

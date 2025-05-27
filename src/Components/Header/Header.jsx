@@ -10,7 +10,7 @@ function Header() {
   };
   return (
     <>
-      <header className=" bg-[#0e0d0d]  w-full  px-5 py-5 md:px-20 fixed top-0 left-0">
+      <header className=" bg-[#121214]/90 w-full  px-5 py-5 md:px-20 fixed top-0 left-0">
         <nav className="flex justify-between items-center ">
           <Link
             to={"/"}
